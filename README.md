@@ -1,11 +1,20 @@
+**Abstract** \
+EN:
 In previous games, camera of one players (Player-A) are invisible to another players(Player-B), this makes Player-A able to see player-B without himself or player-B seeing Player-A around certain corner/covers.
 Thus, creating information asymmetry and gives Player-A unfair advantage.
 This repo shows a solution to this problem by making previously invisible third-person cameras visible to players.
 
+CN：
+在目前的第三人称游戏中，因为玩家的摄像机并不对其他玩家可见。这导致在对战情况中，在掩体后的玩家A可以在不被其他玩家，如玩家B观察到的情况下 观察到玩家B。\
+这造成了对战中的信息不对成，并给予了玩家A不对等的优势。 \
+这个Git目录展示了如何通过让玩家A原本不可见的摄像机对所有玩家可见，从而消除信息不对称的解决方案。\
+
+Key words: TPS / Thrird-person game / peek problem / information aymmetry / intel aymmetry / 第三人称游戏 / 第三人称摄像机 / 视角不对称 / 信息不对称
+
 **Visible camera as a solution to information asymmetry / peek problem in Third-person games.**
 
 **Problem to solve:** \
-In previous games, camera of one players (Player-A) are invisible to another players(Player-B), this makes Player-A able to see player-B without himself or player-B seeing Player-A around certain corner/covers. Thus, creating information asymmetry and gives Player-A unfair advantage.
+In previous games, camera of one players (Player-A) are invisible to another players(Player-B), this makes Player-A able to see player-B without himself or player-B seeing Player-A around certain corner/covers. Thus, creating information asymmetry and gives Player-A unfair advantage. 
 
 **What Player-B will see in current third person games** \
 ![CurrentTPS](./img/Now_TPS.jpg)
